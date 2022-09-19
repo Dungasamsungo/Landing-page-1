@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: rgb(120, 128, 246);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    width:15%
+}
+
+.group-image{
+    width:40%
+   
+}
+
+.header-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.header-menu-content:hover {
+    color:black
+}
+
+.header-menu-content{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff2e7
+}
+
+.main-content{
+    margin-bottom: 20px;
+    margin-top: 1px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.main-item{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-text{
+    display:flex;
+    flex-direction:column;
+    gap: 30px;
+    margin-left: 10%;
+    margin-top: 0.5%;
+}
+
+.main-text-title{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7
+}
+
+.main-text-subtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.main-btn{
+    background-color: rgb(58, 149, 38);
+    width: 180px;
+    height: 60px;
+    border:none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 25);
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff
+
+}
+.main-btn:hover{
+    background-color:rgb(200, 245, 37);
+
+}
+
+.main-content-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #080707
+}
+
+.main-content-2-title{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 40px;
+    margin-bottom: 18px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000
+}
+
+.footer{
+    border-top: 0.1px solid #fff2e7;
+    padding: 1px
+}
+
+.footer-image{
+    height: 10%;
+    display: block;
+    margin: 0 auto;
+}
