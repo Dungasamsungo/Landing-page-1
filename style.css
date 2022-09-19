@@ -126,3 +126,16 @@ body{
     display: block;
     margin: 0 auto;
 }
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.about-image{
+    height: 100px;
+    width: 100px;
+}
