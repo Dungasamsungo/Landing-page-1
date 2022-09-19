@@ -23,7 +23,8 @@ body{
 }
 
 .group-image{
-    width:40%
+    width:20%
+
    
 }
 
@@ -63,6 +64,9 @@ body{
     margin-left: 10%;
     margin-top: 0.5%;
 }
+
+
+    
 
 .main-text-title{
     font-family: 'Righteous', cursive;
