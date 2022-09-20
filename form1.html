@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="form1.css"  href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+<body>
+    <header class="header">
+
+            <img class="header-image" src="logoengwitsam.png" alt="logo">
+        <div class="header-content">
+            <h1 class="header-title">
+                REGISTRATION FORM
+            </h1>
+            <p class="header-subtitle">
+                Fill out the form carefully to registration
+            </p>
+        </div>
+
+    </header>
+
+        <form class="form">
+            <div class="form-content">
+
+                    <p >
+                        <label class="form-tiltle"> <h2> STUDENT NAME </h2></label>
+                    </p>
+                    <br>
+                    
+                        <div class="student-name">
+                            <div class="fname">
+                                <label id="lab" for="fname"> FIRST NAME</label>
+                                <input type="text" lenght="50" name="fname" id="fname"> 
+                            </div>
+                            <br>
+                    
+                            <div class="gname">
+                                <label id="lab"for="gname">OTHER NAME</label>
+                                <input type="text" lenght="50" name="gname" id="gname">
+                            </div>
+                            <br>
+                        
+                            <div class="lname">
+                                <label id="lab" for="lname"> LAST NAME</label>
+                                <input type="text" lenght="50" name="lname" id="lname">    
+                            </div>
+                        </div>  
+                        <br> 
+                            
+                    <p>
+                        <label class="form-tiltle"> <h2>BIRTH INFORMATION</h2></label>
+                    </p>
+                    <br>
+
+                    <div class="birthinfo">
+                        
+                        <div class="month">
+                            <label id="lab" for="month"> Month</label>
+                            <input type="Date" name="month" id="month">
+                        </div>  
+
+                        <div class="sex">
+                            <label id="lab" for="sex">Sex</label>
+                            <select id="sex" name="sex">
+                                <option selected disabled value="" >Select Sex</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>None</option>
+                            </select> 
+                        </div>
+                    </div>
+                    <br> 
+
+                        <p>
+                            <label class="form-tiltle"> <h2>CONTACT INFORMATION</h2> </label>
+                        </p><br>
+
+                    <div class="contact">
+
+                        <div class="cell">
+                            <label id="lab" for="cellnumber">Cell phone Number</label>
+                            <input type="number" name="cellnumber">
+                        </div>  
+                        
+                        <div class="cell">
+                            <label id="lab" for="homephonenumber">Home phone Number</label>
+                            <input type="number" name="homephonenumber">
+                        </div>
+
+                        <div class="cell">
+                            <label id="lab" for="email">Email Address</label>
+                            <input type="email" name="email">
+                        </div>
+                    </div> <br><br>
+
+                        <button id="submit" class="main-btn">Submit</button>
+
+            </div>
+        </form>
+    
+    
+        
+    
+    
+    
+</body>
+</html>

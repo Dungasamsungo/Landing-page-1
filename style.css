@@ -9,7 +9,7 @@
 
 body{
     font-size: 100%;
-    background-color: rgb(120, 128, 246);
+    background-color: rgb(140, 160, 241);
 }
 .header{
     display: flex;
@@ -95,7 +95,8 @@ body{
 
 }
 .main-btn:hover{
-    background-color:rgb(200, 245, 37);
+    background-color:rgb(20, 207, 76);
+    cursor: pointer;
 
 }
 
